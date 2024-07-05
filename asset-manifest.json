@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cdb3c2e2.css",
+    "main.js": "/static/js/main.bbea9d5f.js",
+    "static/js/453.bc9de1c8.chunk.js": "/static/js/453.bc9de1c8.chunk.js",
+    "static/media/foto1.JPG": "/static/media/foto1.bf4360a6f55b5f9f2ee0.JPG",
+    "static/media/waterdicht1.jpeg": "/static/media/waterdicht1.d8d3a0e0d707b2053958.jpeg",
+    "static/media/kief bouw-01.png": "/static/media/kief bouw-01.0240874c5416c3e44dda.png",
+    "static/media/waterdicht2.jpeg": "/static/media/waterdicht2.7d9b80599118609e1990.jpeg",
+    "static/media/details.jpeg": "/static/media/details.be6e91c7857e77e60315.jpeg",
+    "static/media/black bird.svg": "/static/media/black bird.d773d03be63a9fcb597af6bb1f9e760f.svg",
+    "static/media/oplossing.jpeg": "/static/media/oplossing.cbedf5be45b8962362af.jpeg",
+    "index.html": "/index.html",
+    "main.cdb3c2e2.css.map": "/static/css/main.cdb3c2e2.css.map",
+    "main.bbea9d5f.js.map": "/static/js/main.bbea9d5f.js.map",
+    "453.bc9de1c8.chunk.js.map": "/static/js/453.bc9de1c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdb3c2e2.css",
+    "static/js/main.bbea9d5f.js"
+  ]
+}
