@@ -4,6 +4,7 @@ import logo from '../images/kief bouw-01.png';
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import Transition from '../components/Transition.tsx'
 
 
 
@@ -38,7 +39,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className='h-50'>
+    <header className='h-50 fixed top-0 left-0 right-0 z-50 bg-white shadow-lg'>
       <div className='flex flex-row'>
         <button>
           <div className='flex items-center w-40 p-3' onClick={() => navigate('/')}>
@@ -59,13 +60,13 @@ const Header: React.FC = () => {
           <FontAwesomeIcon className='size-7' icon={faBars} />
         </button>
       </div>
-      {isDropdownOpen && (<div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg z-10">
-          <button className='px-3 py-2 w-full text-left border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/')}>Home</button>
-          <button className='px-3 py-2 w-full text-left border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/services')}>Ons werk</button>
-          <button className='px-3 py-2 w-full text-left border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/about')}>Over ons</button>
-          <button className='px-3 py-2 w-full text-left border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/offerte')}>Offerte</button>
-        </div>
-        )}
+        {isDropdownOpen && (
+        <div className="absolute right-0 mt-0 w-full bg-white shadow-lg z-10 transition-all transition-[height]">
+          <button className='px-3 py-2 w-full text-center border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/')}>Home</button>
+          <button className='px-3 py-2 w-full text-center border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/services')}>Ons werk</button>
+          <button className='px-3 py-2 w-full text-center border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/about')}>Over ons</button>
+          <button className='px-3 py-2 w-full text-center border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/offerte')}>Offerte</button>
+        </div>)}
     </header>
   );
 }

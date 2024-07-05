@@ -4,7 +4,15 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}', // Add your paths here
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto': ['"Roboto"', 'sans-serif'],
+      },
+      transitionProperty: {
+        'height': 'height',
+      }
+
+    },
   },
   plugins: [],
 }

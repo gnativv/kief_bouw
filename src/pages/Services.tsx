@@ -1,13 +1,16 @@
 import React from 'react';
 import Header from '../components/Header.tsx';
+import BestaatNiet from '../components/bestaatniet.tsx';
+import Footer from '../components/Footer.tsx';
+
 
 
 const Services: React.FC = () => {
   return (
     <div>
       <Header/>
-      <h1>Our Services</h1>
-      <p>Discover the services we offer.</p>
+      <BestaatNiet/>
+      <Footer/>
     </div>
   );
 }
