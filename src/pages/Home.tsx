@@ -74,7 +74,7 @@ const Home: React.FC = () => {
                     <h2 className="text-black text-center text-l md:text-2xl font-bold mt-5 mb-40">Jouw laatste stap naar je droombadkamer.</h2>
                 </div>
             </div>
-            <h1 className='uppercase mt-10 md:mt-20 md:text-center px-5 text-4xl'>Waarom wij?</h1>
+            <h1 className='uppercase my-10 md:mt-20 md:text-center px-5 text-4xl'>Waarom wij?</h1>
             <div className="px-5 md:px-10 md:grid grid-cols-2 grid-rows-3 gap-5">
                 <div className="flex flex-col font-roboto justify-center p-0 md:flex md:flex-col md:font-roboto md:justify-center md:p-5">
                     <h1 className='text-2xl mb-5 uppercase md:px-20'>AANDACHT VOOR DETAILS</h1>
