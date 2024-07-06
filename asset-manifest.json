@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5274a53f.css",
-    "main.js": "/static/js/main.e8a1ac6b.js",
+    "main.css": "/static/css/main.4cc25147.css",
+    "main.js": "/static/js/main.9fcbe09b.js",
     "static/js/453.bc9de1c8.chunk.js": "/static/js/453.bc9de1c8.chunk.js",
     "static/media/foto1.JPG": "/static/media/foto1.bf4360a6f55b5f9f2ee0.JPG",
     "static/media/waterdicht1.jpeg": "/static/media/waterdicht1.d8d3a0e0d707b2053958.jpeg",
@@ -9,14 +9,15 @@
     "static/media/waterdicht2.jpeg": "/static/media/waterdicht2.7d9b80599118609e1990.jpeg",
     "static/media/details.jpeg": "/static/media/details.be6e91c7857e77e60315.jpeg",
     "static/media/black bird.svg": "/static/media/black bird.d773d03be63a9fcb597af6bb1f9e760f.svg",
+    "static/media/sanisale.jpeg": "/static/media/sanisale.05ed3b718da82d1cd3dc.jpeg",
     "static/media/oplossing.jpeg": "/static/media/oplossing.cbedf5be45b8962362af.jpeg",
     "index.html": "/index.html",
-    "main.5274a53f.css.map": "/static/css/main.5274a53f.css.map",
-    "main.e8a1ac6b.js.map": "/static/js/main.e8a1ac6b.js.map",
+    "main.4cc25147.css.map": "/static/css/main.4cc25147.css.map",
+    "main.9fcbe09b.js.map": "/static/js/main.9fcbe09b.js.map",
     "453.bc9de1c8.chunk.js.map": "/static/js/453.bc9de1c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5274a53f.css",
-    "static/js/main.e8a1ac6b.js"
+    "static/css/main.4cc25147.css",
+    "static/js/main.9fcbe09b.js"
   ]
 }
