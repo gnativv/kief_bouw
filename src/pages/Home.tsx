@@ -8,6 +8,7 @@ import Details from '../images/details.jpeg';
 import Oplossing from '../images/oplossing.jpeg';
 import waterdicht1 from '../images/waterdicht1.jpeg';
 import waterdicht2 from '../images/waterdicht2.jpeg';
+import Sanisale from '../images/sanisale.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
@@ -59,9 +60,9 @@ const Home: React.FC = () => {
   return (
     <div>
       <div className='h-[64px]'>
-      <Header />
+        <Header />
       </div>
-      <body className='bg-[#fffcf5]'>
+      <div className='bg-[#fffcf5]'>
         <div className="">
             <div
             className="flex justify-center items-center relative bg-cover bg-center"
@@ -71,11 +72,11 @@ const Home: React.FC = () => {
                 <div className="relative flex flex-col items-center justify-center pb-100 fadeText">
                     <img src={Icon} className="size-52" alt="Icon" />
                     <h1 className="text-black text-6xl text-center lg:text-9xl font-bold">KIEF BOUW</h1>
-                    <h2 className="text-black text-center text-l lg:text-2xl font-bold mt-5 mb-40">Jouw laatste stap naar je droombadkamer.</h2>
+                    <h2 className="text-black text-center text-l lg:text-2xl font-bold mt-5 mb-40">De laatste stap naar je droombadkamer.</h2>
                 </div>
             </div>
             <h1 className='uppercase my-10 lg:mt-20 lg:text-center px-5 text-4xl'>Waarom wij?</h1>
-            <div className="px-5 lg:px-10 lg:grid grid-cols-2 grid-rows-3 gap-5">
+            <div className="px-5 lg:px-10 lg:grid grid-cols-2 grid-rows-4 gap-5">
                 <div className="flex flex-col font-roboto justify-center p-0 lg:flex lg:flex-col lg:font-roboto lg:justify-center lg:p-5">
                     <h1 className='text-2xl mb-5 uppercase lg:px-20'>AANDACHT VOOR DETAILS</h1>
                     <p className='mb-5 lg:mb-10 lg:px-20'>De schoonheid van een badkamer wordt bepaald door het design, maar wat jouw badkamer echt laat uitspringen zijn de details. Wij maken gebruik van de meest geavanceerde technieken voor het leggen van tegels, waardoor elke voeg perfect uitgelijnd is en de tegels samen een naadloos glad oppervlak vormen.
@@ -112,6 +113,22 @@ const Home: React.FC = () => {
                     src={isPicture1 ? waterdicht1 : waterdicht2}
                     alt="Switcher"
                     />
+                </div>
+                <div className="block lg:hidden flex flex-col font-roboto justify-center p-0">
+                    <h1 className='text-2xl my-5 uppercase px-0'>Bezoek Onze Partner en Ervaar Je Nieuwe Badkamer in de Showroom</h1>
+                    <p className='mb-5 px-0'>Wij werken al meer dan 5 jaar samen met SaniSale Delft, waar je een groot assortiment aan badkamerproducten kunt vinden. Kom gerust langs en breng de afmetingen mee die we tijdens onze eerste afspraak hebben vastgesteld. Bij SaniSale Delft ontvang je een gratis technische tekening en een 3D-ontwerp van je nieuwe badkamer, compleet met jouw gewenste design, tegels en accessoires. Zo kun je jouw droom badkamer tot leven zien komen voordat de werkzaamheden beginnen.
+                    </p>
+                    <p className='mb-5 px-0'>
+                    Ontdek de mogelijkheden en laat je inspireren door de nieuwste trends en technieken in badkamerontwerp!</p>
+                </div>
+                <div className="flex flex-col font-roboto justify-center mb-10 lg:p-10 "><img src={Sanisale}/></div>
+                <div className="hidden lg:block lg:flex lg:flex-col lg:font-roboto lg:justify-center lg:p-5">
+                    <h1 className=' text-2xl my-5 uppercase px-20'>Bezoek Onze Partner en Ervaar Je Nieuwe Badkamer in de Showroom</h1>
+                    <p className='mb-5 px-20'>Wij werken al meer dan 5 jaar samen met SaniSale Delft, waar je een groot assortiment aan badkamerproducten kunt vinden. Kom gerust langs en breng de afmetingen mee die we tijdens onze eerste afspraak hebben vastgesteld. Bij SaniSale Delft ontvang je een gratis technische tekening en een 3D-ontwerp van je nieuwe badkamer, compleet met jouw gewenste design, tegels en accessoires. Zo kun je jouw droombadkamer tot leven zien komen nog voordat de werkzaamheden beginnen.
+                    <br/><br/>
+                    </p>
+                    <p className='mb-5 px-20'>
+                    Ontdek de mogelijkheden en laat je inspireren door de nieuwste trends en technieken in badkamerontwerp!</p>
                 </div>
             </div>
             <h1 className='uppercase mb-5 lg:mb-20 mt-10 lg:mt-20 lg:text-center px-5 text-4xl'>Wat vinden onze klanten?</h1>
@@ -152,7 +169,7 @@ const Home: React.FC = () => {
 
         </div>
       <Footer />
-      </body>
+      </div>
     </div>
   );
 };

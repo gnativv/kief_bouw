@@ -66,6 +66,9 @@ const Header: React.FC = () => {
           <button className='px-3 py-2 w-full text-center border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/services')}>Ons werk</button>
           <button className='px-3 py-2 w-full text-center border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/about')}>Over ons</button>
           <button className='px-3 py-2 w-full text-center border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={() => navigate('/offerte')}>Offerte</button>
+          <button className='px-3 py-2 w-full text-center border-b-2 border-transparent hover:border-black transition duration-300' type='button' onClick={handleClick}>
+          <FontAwesomeIcon className='size-7' icon={faInstagram} />
+        </button>
         </div>)}
     </header>
   );
