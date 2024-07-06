@@ -70,30 +70,30 @@ const Home: React.FC = () => {
                 <div className="absolute inset-0 bg-[#fffcf5] opacity-80 fadePicture"></div>
                 <div className="relative flex flex-col items-center justify-center pb-100 fadeText">
                     <img src={Icon} className="size-52" alt="Icon" />
-                    <h1 className="text-black text-6xl text-center md:text-9xl font-bold">KIEF BOUW</h1>
-                    <h2 className="text-black text-center text-l md:text-2xl font-bold mt-5 mb-40">Jouw laatste stap naar je droombadkamer.</h2>
+                    <h1 className="text-black text-6xl text-center lg:text-9xl font-bold">KIEF BOUW</h1>
+                    <h2 className="text-black text-center text-l lg:text-2xl font-bold mt-5 mb-40">Jouw laatste stap naar je droombadkamer.</h2>
                 </div>
             </div>
-            <h1 className='uppercase my-10 md:mt-20 md:text-center px-5 text-4xl'>Waarom wij?</h1>
-            <div className="px-5 md:px-10 md:grid grid-cols-2 grid-rows-3 gap-5">
-                <div className="flex flex-col font-roboto justify-center p-0 md:flex md:flex-col md:font-roboto md:justify-center md:p-5">
-                    <h1 className='text-2xl mb-5 uppercase md:px-20'>AANDACHT VOOR DETAILS</h1>
-                    <p className='mb-5 md:mb-10 md:px-20'>De schoonheid van een badkamer wordt bepaald door het design, maar wat jouw badkamer echt laat uitspringen zijn de details. Wij maken gebruik van de meest geavanceerde technieken voor het leggen van tegels, waardoor elke voeg perfect uitgelijnd is en de tegels samen een naadloos glad oppervlak vormen.
+            <h1 className='uppercase my-10 lg:mt-20 lg:text-center px-5 text-4xl'>Waarom wij?</h1>
+            <div className="px-5 lg:px-10 lg:grid grid-cols-2 grid-rows-3 gap-5">
+                <div className="flex flex-col font-roboto justify-center p-0 lg:flex lg:flex-col lg:font-roboto lg:justify-center lg:p-5">
+                    <h1 className='text-2xl mb-5 uppercase lg:px-20'>AANDACHT VOOR DETAILS</h1>
+                    <p className='mb-5 lg:mb-10 lg:px-20'>De schoonheid van een badkamer wordt bepaald door het design, maar wat jouw badkamer echt laat uitspringen zijn de details. Wij maken gebruik van de meest geavanceerde technieken voor het leggen van tegels, waardoor elke voeg perfect uitgelijnd is en de tegels samen een naadloos glad oppervlak vormen.
                     </p>
 
-                    <p className='mb-5 md:px-20'>
+                    <p className='mb-5 lg:px-20'>
                     Onze afwerking is ongeëvenaard: alle randjes worden zorgvuldig afgewerkt met profielen in de kleur van jouw tegel. Dit zorgt niet alleen voor een schitterende uitstraling, maar ook voor praktische duurzaamheid: de kans op beschadigde tegels wordt tot een minimum beperkt.</p>
                 </div>
-                <div className="flex flex-col font-roboto justify-center mb-10 md:px-10 "><img src={Details}/></div>
-                <div className="block md:hidden flex flex-col font-roboto justify-center p-0">
+                <div className="flex flex-col font-roboto justify-center mb-10 lg:px-10 "><img src={Details}/></div>
+                <div className="block lg:hidden flex flex-col font-roboto justify-center p-0">
                     <h1 className='text-2xl my-5 uppercase px-0'>Ervaring en Creativiteit: Oplossingen Voor Elke Uitdaging</h1>
                     <p className='mb-5 px-0'>Met meer dan 10 jaar ervaring hebben wij vrijwel elke situatie in een badkamer gezien. Dankzij onze uitgebreide kennis en creatieve aanpak kunnen wij voor zelfs de meest uitdagende problemen een oplossing vinden. Of het nu gaat om ongewone ruimtelijke indelingen, moeilijk bereikbare plekken, of speciale designwensen, wij hebben de expertise om jouw visie werkelijkheid te maken.
                     </p>
                     <p className='mb-5 px-0'>
                     Onze vakmensen zijn getraind om buiten de gebaande paden te denken en innovatieve oplossingen te bieden die perfect aansluiten bij jouw behoeften. We combineren jarenlange ervaring met een frisse blik op moderne technieken en materialen, waardoor we in staat zijn om voor elke situatie een passende en duurzame oplossing te leveren.</p>
                 </div>
-                <div className="flex flex-col font-roboto justify-center mb-10 md:p-10 "><img src={Oplossing}/></div>
-                <div className="hidden md:block md:flex md:flex-col md:font-roboto md:justify-center md:p-5">
+                <div className="flex flex-col font-roboto justify-center mb-10 lg:p-10 "><img src={Oplossing}/></div>
+                <div className="hidden lg:block lg:flex lg:flex-col lg:font-roboto lg:justify-center lg:p-5">
                     <h1 className=' text-2xl my-5 uppercase px-20'>Ervaring en Creativiteit: Oplossingen Voor Elke Uitdaging</h1>
                     <p className='mb-5 px-20'>Met meer dan 10 jaar ervaring hebben wij vrijwel elke situatie in een badkamer gezien. Dankzij onze uitgebreide kennis en creatieve aanpak kunnen wij voor zelfs de meest uitdagende problemen een oplossing vinden. Of het nu gaat om ongewone ruimtelijke indelingen, moeilijk bereikbare plekken, of speciale designwensen, wij hebben de expertise om jouw visie werkelijkheid te maken.
                     <br/><br/>
@@ -102,21 +102,21 @@ const Home: React.FC = () => {
                     <p className='mb-5 px-20'>
                     Onze vakmensen zijn getraind om buiten de gebaande paden te denken en innovatieve oplossingen te bieden die perfect aansluiten bij jouw behoeften. We combineren jarenlange ervaring met een frisse blik op moderne technieken en materialen, waardoor we in staat zijn om voor elke situatie een passende en duurzame oplossing te leveren.</p>
                 </div>
-                <div className="flex flex-col font-roboto justify-center p-0 md:flex md:flex-col md:font-roboto md:justify-center md:p-5">
-                    <h1 className='text-2xl my-5 uppercase md:px-20'>Een waterdichte oplossing</h1>
-                    <p className='mb-5 md:mb-10 md:px-20'>Bij ons staat kwaliteit voorop. Daarom bewerken wij elke doucheruimte met de grootste zorg en precisie, gebruikmakend van kimband en speciale afdichtpasta. Dit zorgt ervoor dat er geen enkele kans is op lekkage. Uw badkamer is bij ons in veilige en ervaren handen.
+                <div className="flex flex-col font-roboto justify-center p-0 lg:flex lg:flex-col lg:font-roboto lg:justify-center lg:p-5">
+                    <h1 className='text-2xl my-5 uppercase lg:px-20'>Een waterdichte oplossing</h1>
+                    <p className='mb-5 lg:mb-10 lg:px-20'>Bij ons staat kwaliteit voorop. Daarom bewerken wij elke doucheruimte met de grootste zorg en precisie, gebruikmakend van kimband en speciale afdichtpasta. Dit zorgt ervoor dat er geen enkele kans is op lekkage. Uw badkamer is bij ons in veilige en ervaren handen.
                     </p>
                 </div>
-                <div className="flex flex-col font-roboto justify-center md:p-10 ">
+                <div className="flex flex-col font-roboto justify-center lg:p-10 ">
                     <img
                     src={isPicture1 ? waterdicht1 : waterdicht2}
                     alt="Switcher"
                     />
                 </div>
             </div>
-            <h1 className='uppercase mb-5 md:mb-20 mt-10 md:mt-20 md:text-center px-5 text-4xl'>Wat vinden onze klanten?</h1>
-            <div className='w-full px-5 md:px-20 space-y-5 md:space-y-0 md:space-x-20'>
-                <div className='w-full flex flex-col md:grid md:grid-cols-2 md:grid-rows-1 gap-5'>
+            <h1 className='uppercase mb-5 lg:mb-20 mt-10 lg:mt-20 lg:text-center px-5 text-4xl'>Wat vinden onze klanten?</h1>
+            <div className='w-full px-5 lg:px-20 space-y-5 lg:space-y-0 lg:space-x-20'>
+                <div className='w-full flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-1 gap-5'>
                     <div className="bg-white ring-1 ring-gray-400 p-4 h-full rounded-md">
                     <div className="text-xl font-bold pb-2">Pascal</div>
                     <div className="pb-2">
